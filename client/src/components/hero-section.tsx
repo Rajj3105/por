@@ -87,7 +87,7 @@ Technology enthusiast, AI advancements, gaming, cricket, badminton
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300" 
+              src="/attached_assets/IMG_20241106_174022_1752660031459.jpg" 
               alt="Rajdeep Patel - AI Developer" 
               className="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto object-cover border-4 border-neon-cyan animate-glow glow-effect" 
             />

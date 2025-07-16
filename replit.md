@@ -10,30 +10,32 @@ Preferred communication style: Simple, everyday language.
 
 ## System Architecture
 
-The application follows a full-stack architecture with a clean separation between frontend and backend components:
+The application follows a full-stack Next.js architecture:
 
-- **Frontend**: React-based SPA with TypeScript
-- **Backend**: Express.js server with TypeScript
+- **Framework**: Next.js 15 with App Router and TypeScript
+- **Frontend**: React-based with Server Side Rendering (SSR) and Static Site Generation (SSG)
+- **Backend**: Next.js API Routes for backend functionality
 - **Database**: PostgreSQL with Drizzle ORM (configured but minimal usage)
 - **Styling**: Tailwind CSS with shadcn/ui components
-- **Build System**: Vite for frontend bundling
-- **Development**: Hot module replacement with Vite dev server
+- **Build System**: Next.js built-in Turbopack and SWC
+- **Development**: Hot module replacement with Next.js dev server
 
 ## Key Components
 
 ### Frontend Architecture
-- **Framework**: React 18 with TypeScript
-- **Routing**: Wouter for lightweight client-side routing
+- **Framework**: Next.js 15 with App Router and React 18
+- **Routing**: Next.js App Router with file-based routing
 - **State Management**: TanStack Query for server state management
 - **UI Components**: shadcn/ui component library built on Radix UI primitives
 - **Styling**: Tailwind CSS with custom CSS variables for theming
 - **Animations**: Framer Motion for smooth animations and transitions
+- **Rendering**: Server-side rendering (SSR) and static generation (SSG)
 
 ### Backend Architecture
-- **Server**: Express.js with TypeScript
-- **API Structure**: RESTful endpoints under `/api` prefix
-- **Development Setup**: Custom Vite middleware integration for seamless development
-- **Error Handling**: Centralized error handling middleware
+- **Server**: Next.js API Routes with TypeScript
+- **API Structure**: RESTful endpoints under `/api` prefix in app directory
+- **Development Setup**: Next.js built-in development server
+- **Error Handling**: Next.js error boundaries and API error handling
 
 ### Database Layer
 - **ORM**: Drizzle ORM configured for PostgreSQL
@@ -94,11 +96,20 @@ The application follows a full-stack architecture with a clean separation betwee
 - **Database**: PostgreSQL connection via DATABASE_URL environment variable
 
 ### Scripts
-- `npm run dev`: Start development server with hot reloading
-- `npm run build`: Build both frontend and backend for production
-- `npm run start`: Start production server
+- `npm run dev`: Start Next.js development server with hot reloading
+- `npm run build`: Build Next.js application for production
+- `npm run start`: Start Next.js production server
+- `npm run lint`: Run ESLint for code quality
 - `npm run check`: TypeScript type checking
 - `npm run db:push`: Push database schema changes
+
+### Recent Changes (July 16, 2025)
+- **Major Migration**: Migrated from Vite + Express.js to Next.js 15
+- **Architecture Change**: Now using Next.js App Router for both frontend and backend
+- **API Routes**: Migrated Express API endpoints to Next.js API routes
+- **Build System**: Replaced Vite with Next.js built-in Turbopack
+- **Development**: Now using Next.js dev server on port 5000
+- **Configuration**: Updated TypeScript and ESLint configs for Next.js
 
 ### Hosting Considerations
 - **Static Files**: Served from `dist/public` directory

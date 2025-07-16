@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import profileImage from "@assets/IMG_20241106_174022_1752660031459.jpg";
 
 export default function HeroSection() {
   const handleDownloadResume = () => {
@@ -87,7 +88,7 @@ Technology enthusiast, AI advancements, gaming, cricket, badminton
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <img 
-              src="/attached_assets/IMG_20241106_174022_1752660031459.jpg" 
+              src={profileImage} 
               alt="Rajdeep Patel - AI Developer" 
               className="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto object-cover border-4 border-neon-cyan animate-glow glow-effect" 
             />

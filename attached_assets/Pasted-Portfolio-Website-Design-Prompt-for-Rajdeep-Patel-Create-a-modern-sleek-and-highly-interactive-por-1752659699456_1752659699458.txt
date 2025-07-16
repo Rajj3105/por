@@ -1,0 +1,86 @@
+Portfolio Website Design Prompt for Rajdeep Patel
+Create a modern, sleek, and highly interactive portfolio website for Rajdeep Patel, an AI developer and final-year MCA student. The design should be cutting-edge, visually striking, and showcase his technical expertise.
+Personal Information:
+
+Name: Rajdeep Patel
+Phone: +91 9081659701
+Email: patelrajdeeep@gmail.com
+LinkedIn: www.linkedin.com/in/patelrajdeeep
+Location: Vadodara, Gujarat, India
+
+Professional Summary:
+Final-year Integrated MCA student specializing in Artificial Intelligence, graduating in 2025 from Parul University. Enthusiastic Python developer with strong foundations in AI, machine learning, and web development. Experienced in building AI-powered applications and contributing to open-source projects.
+Education:
+
+Parul University, Vadodara (May 2021 - April 2025)
+Integrated Masters of Computer Applications in Artificial Intelligence
+CGPA: 8.18
+Previous: SSC 70.3% (2019), HSC 64.15% (2021)
+
+Key Projects to Highlight:
+
+ParkSense AI (January 2025 - Present)
+
+Real-time parking space detection system
+Dynamic occupancy monitoring with time tracking
+Illegal parking alerts
+Interactive dashboard for real-time data visualization
+
+
+ClassiVision (October 2024)
+
+Web-based ML model training platform
+No-code solution for educators and students
+TensorFlow.js integration for browser-based training
+Drag-and-drop interface for image classification
+
+
+Cafe Menu System (February 2025)
+
+Mobile-optimized QR code ordering system
+Secure payment gateway integration
+Multi-panel architecture (customer/owner/admin)
+Dynamic menu management with analytics
+
+
+Application Tracking System (March 2024)
+
+NLP-powered text analysis and sentiment classification
+Django REST API integration
+Streamlit dashboard for data visualization
+SQLite database with scalable NLP pipeline
+
+
+
+Technical Skills:
+
+Core: Python Programming, Data Science, Computer Vision, Machine Learning
+Frameworks: Django, Flask, TensorFlow.js, Streamlit
+Tools: NLTK, spaCy, SQLite
+Languages: English, Hindi, Gujarati
+
+Interests:
+Technology enthusiast, AI advancements, gaming, cricket, badminton
+Design Requirements:
+
+Theme: Dark, modern, tech-forward with neon accents
+Color Palette: Deep blues, purples, with cyan and magenta highlights
+Style: Glassmorphism elements, smooth animations, gradient overlays
+Interactive Elements: Hover effects, smooth scrolling, animated transitions
+Sections: Hero, About, Projects (with detailed cards), Skills, Contact
+Typography: Clean, modern sans-serif fonts
+Responsive: Mobile-first design approach
+Effects: Particle animations, floating elements, dynamic backgrounds
+
+Special Features to Include:
+
+Animated project showcases with live demos/screenshots
+Interactive skill bars or circular progress indicators
+Contact form with modern styling
+Social media integration
+Download resume functionality
+Project filtering/categorization
+Testimonials section (if applicable)
+Blog/articles section (optional)
+
+The website should convey professionalism while showcasing creativity and technical prowess, appealing to potential employers in AI/tech companies and demonstrating his ability to create user-friendly, visually appealing applications.
